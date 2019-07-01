@@ -1,0 +1,168 @@
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<header id='header'>
+    <div class='content'>
+        <div id='logo'>
+            Alex Jalkanen
+        </div>
+    </div>
+     <nav id='nav'>
+            <ul id="mainNav">
+                <li id="navList"><a href="#About">About</a></li>
+                <li id="navList"><a href="#Education">Education</a></li>
+                <li id="navList"><a href="#Work">Work</a></li>
+                <li id="navList"><a href="#Skills">Skills</a></li>
+                <li id="navList"><a href="#Projects">Projects</a></li>
+                <li id="navList"><a href="#Contact">Contact</a></li>
+            </ul>
+        </nav>
+</header>
+
+
+<div id='About'>
+    <div class='wrapper'>
+         <div class='photo'>
+            <%= image_tag("headshot.jpg", align: 'left', class: "headshot") %>
+        </div>
+   
+        <div class='aboutContainer'>
+            <div class='blurbContainer'>
+                <h3 class='blurb'>Alex Jalkanen is a third-year student at The University of Michigan studying Computer Science Engineering. He is a skilled programmer in multiple languages and environments, especially C++. He is currently seeking a programming internship position to assist in project development and wholistic company success.</h3>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div id='Education'>
+    <div class='wrapper'>
+        <div class='eduContainer'>
+            <h3 class='eduText' style="padding-top:5%;">University of Michigan</h3>
+            <h3 class='eduInfo'>Bachelor of Science in Engineering in Computer Science. Graduation: April 2021</h3>
+            <h3 class='eduText'></h3>
+            <h3 class='eduText'>Relevant Coursework:</h3>
+            <ul id='courseList' style="list-style-type:circle;">
+                <li id='course' style="padding-bottom:2%;">EECS 281 - Data Structures and Algorithms</li>
+                <li id='course' style="padding-bottom:2%;">EECS 280 – Programming and Data Structures</li>
+                <li id='course' style="padding-bottom:2%;">EECS 201 – Computer Science Pragmatics</li>
+                <li id='course' style="padding-bottom:2%;">EECS 203 – Discrete Mathematics</li>
+                <li id='course' style="padding-bottom:2%;">EECS 183 – Elem. Programming Concepts</li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+<div id='Work'>
+    <div class='wrapper'>
+        <div class='workContainerLeft'>
+            <h3 class='workTitle'>Work Experience:</h3>
+            <hr>
+            <h3 class='jobTitle'>App Development Intern</h3>
+            <h3 class='company'><i>Arbor Moon</i> | 6/2019 - Present</h3>
+                <ul id='jobList' style="list-style-type:circle;">
+                    <li id='jobDesc'>Developed IOS and Android application for Ann Arbor parking availability.</li>
+                    <li id='jobDesc'>Developed alongside company president, coordinated meetings, and ensured app success.</li>
+                </ul>
+            <hr>
+            <h3 class='jobTitle'>Professional Youth Development</h3>
+            <h3 class='company'><i>Cranbrook Schools</i> | 6/2016 - 8/2018</h3>
+                <ul id='jobList' style="list-style-type:circle;">
+                    <li id='jobDesc'>Engaged with and instructed students how to fabricate and program VEX IQ robotics.</li>
+                    <li id='jobDesc'>Developed a curriculum and assisted administration to further improve current and future camps.</li>
+                </ul>
+        </div>
+        <div class='workContainerRight'>
+            <h3 class='workTitle'>Work Experience (Continued):</h3>
+            <hr>
+            <h3 class='jobTitle'>Robotics Tutor</h3>
+            <h3 class='company'><i>Private</i> | 6/2018 - 8/2018</h3>
+                <ul id='jobList' style="list-style-type:circle;">
+                    <li id='jobDesc'>Facilitated private instruction with implementation on design and decision matrices.</li>
+                    <li id='jobDesc'>Tutored advanced C programming for a VEX IQ robot.</li>
+                </ul>
+            <hr>
+            <h3 class='jobTitle'>Sales Associate</h3>
+            <h3 class='company'><i>Zoyo Neighborhood Yogurt</i> | 6/2018 - Present</h3>
+                <ul id='jobList' style="list-style-type:circle;">
+                    <li id='jobDesc'>Maintained store, operating both behind the scenes and interacted with customers to provide a positive experience.</li>
+                    <li id='jobDesc'>Trained new employees, catered private events, and fulfilled manager duties.</li>
+                </ul>
+        </div>
+    </div>
+</div>
+
+<div id='Skills'>
+    <div class='wrapper'>
+        <div class='skillContainer'>
+            <h3 class='eduText' style="padding-top:3%;">Computer Science Skills</h3>
+            <h3 class='eduInfo'>Proficient in using C++ and Git</h3>
+            <h3 class='eduText'></h3>
+            <h3 class='eduText'>Previously Used In Projects:</h3>
+            
+
+            <ul class='columnContainer'>
+            <li class='column'>
+                <h3 class='skillTitle'><i>Software Languages</i></h3>
+                <ul id='skillList' style="list-style-type:circle;">
+                    <li id='skill'>Python, Bash/Shell Scripting, Expect, LabVIEW</li>
+                </ul>
+                <h3 class='skillTitle'><i>App Development Languages</i></h3>
+                <ul id='skillList' style="list-style-type:circle;">
+                    <li id='skill'>Dart, Kotlin, Java</li>
+                </ul>
+                <h3 class='skillTitle'><i>Web Development Languages</i></h3>
+                <ul id='skillList' style="list-style-type:circle;">
+                    <li id='skill'>HTML, CSS, Ruby</li>
+                </ul>
+            </li>
+            <li class='column'>
+                <h3 class='skillTitle'><i>Frameworks</i></h3>
+                <ul id='skillList' style="list-style-type:circle;">
+                    <li id='skill'>Flutter, Android Studio, Rails</li>
+                </ul>
+                <h3 class='skillTitle'><i>Platforms</i></h3>
+                <ul id='skillList' style="list-style-type:circle;">
+                    <li id='skill'>Windows, Linux/Ubuntu, VMWare, Docker, Travis</li>
+                </ul>
+                <h3 class='skillTitle'><i>Databases</i></h3>
+                <ul id='skillList' style="list-style-type:circle;">
+                    <li id='skill'>Google Firestore, Google Firebase</li>
+            </ul>
+            </li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+<div id='Projects'>
+    <div class='wrapper'>
+        <div class='projectContainer'>
+            <h3 class='eduText' style="padding-top:3%;">Projects</h3>
+            <h3 class='projectTitle'><i>Hackathon 2nd Place Winner | Park A2 App</i></h3>
+                <ul id='projectList' style="list-style-type:circle;">
+                    <li id='project'>Developed Android/IOS app that allows users to view realtime parking availability in Ann Arbor.</li>
+                    <li id='project'>Awarded 2nd place at Hackathon where this app was originally developed. App is currently undergoing further development and systematic enhancements.</li>
+                </ul>
+            <h3 class='projectTitle'><i>Showcase Award Winner for Creative AI Python Project</i></h3>
+                <ul id='projectList' style="list-style-type:circle;">
+                    <li id='project'>Nominated by JP Morgan as having an outstanding project during showcase premiere. </li>
+                    <li id='project'>Created machine learning based project which trained on midi files to create jazz music mp4 videos and consecutively uploads to YouTube.</li>
+                </ul>
+            <h3 class='projectTitle'><i>Developing Android Application</i></h3>
+                <ul id='projectList' style="list-style-type:circle;">
+                    <li id='project'>Currently developing a personal app that allows students to easily schedule and meet with other students on campus for studying or work in classes. </li>
+                    <li id='project'>Implements Google Firebase, Fragment Navigation, and User Accounts.</li>
+                </ul>
+        </div>
+    </div>
+</div>
+
+<div id='Contact'>
+    <div class='wrapper'>
+        <div class='contactContainer'>
+            <div class='contactInfoContainer'>
+                <h3 class='contact' style="padding-top:7%;">You can contact me at: alexjalk@umich.edu</h3>
+                <h3 class='contact'>You can find my LinkedIn at: <%= link_to "LinkedIn", "https://linkedin.com/in/alexjalkanen/", :target => "_blank" %> </h3>
+                <h3 class='contact'>You can find my GitHub at: <%= link_to "GitHub", "https://github.com/AlexJalkanen", :target => "_blank" %> </h3>
+            </div>
+        </div>
+    </div>
+</div>
