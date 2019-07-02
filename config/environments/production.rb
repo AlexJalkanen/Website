@@ -90,6 +90,6 @@ Rails.application.configure do
   config.active_record.dump_schema_after_migration = false
   
   #Images
-  config.serve_static_files = true
-  config.assets.compile = true
+  #config.serve_static_files = true
+  #config.assets.compile = true
 end
