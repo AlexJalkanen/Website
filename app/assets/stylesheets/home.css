@@ -146,7 +146,7 @@ body::-webkit-scrollbar { /* WebKit */
 }
 #Education {
     width: 100%;
-    background: url('umich.jpg') 50% 20% no-repeat fixed;
+    background: image_url('umich.jpg') 50% 20% no-repeat fixed;
     background-size: cover;
     color: #fff;
     height: 600px;
@@ -205,7 +205,7 @@ body::-webkit-scrollbar { /* WebKit */
 
 #Work {
     width: 100%;
-    background: url('work.jpg') 50% 0 no-repeat fixed;
+    background: image_url('work.jpg') 50% 0 no-repeat fixed;
     background-size: cover;
     color: #fff;
     height: 600px;
@@ -295,7 +295,7 @@ hr {
 
 #Skills {
     width: 100%;
-    background: url('hackathon.jpg') 50% 30% no-repeat fixed;
+    background: image_url('hackathon.jpg') 50% 30% no-repeat fixed;
     background-size: cover;
     color: #fff;
     height: 600px;
@@ -362,7 +362,7 @@ hr {
 
 #Projects {
     width: 100%;
-    background: url('lake.jpg') 50% 30% no-repeat fixed;
+    background: image_url('lake.jpg') 50% 30% no-repeat fixed;
     background-size: cover;
     color: #fff;
     height: 600px;
