@@ -4015,3 +4015,52 @@ Processing by HomeController#show as HTML
 Completed 200 OK in 248ms (Views: 192.1ms)
 
 
+Started GET "/" for ::1 at 2019-07-10 13:58:29 -0400
+Processing by HomeController#show as HTML
+  Rendering home/show.html.erb within layouts/application
+  Rendered home/show.html.erb within layouts/application (12.7ms)
+Started GET "/" for ::1 at 2019-07-10 13:58:31 -0400
+Processing by HomeController#show as HTML
+  Rendering home/show.html.erb within layouts/application
+  Rendered home/show.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 5579ms (Views: 4216.8ms)
+
+
+Completed 200 OK in 23924ms (Views: 23862.9ms)
+
+
+Started GET "/" for ::1 at 2019-07-10 14:00:26 -0400
+Processing by HomeController#show as HTML
+  Rendering home/show.html.erb within layouts/application
+  Rendered home/show.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 269ms (Views: 242.2ms)
+
+
+Started GET "/" for ::1 at 2019-07-10 14:01:22 -0400
+Processing by HomeController#show as HTML
+  Rendering home/show.html.erb within layouts/application
+  Rendered home/show.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 234ms (Views: 207.3ms)
+
+
+Started GET "/" for ::1 at 2019-07-10 14:02:17 -0400
+Processing by HomeController#show as HTML
+  Rendering home/show.html.erb within layouts/application
+  Rendered home/show.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 257ms (Views: 225.1ms)
+
+
+Started GET "/" for ::1 at 2019-07-10 14:02:38 -0400
+Processing by HomeController#show as HTML
+  Rendering home/show.html.erb within layouts/application
+  Rendered home/show.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 237ms (Views: 208.9ms)
+
+
+Started GET "/" for ::1 at 2019-07-10 14:03:59 -0400
+Processing by HomeController#show as HTML
+  Rendering home/show.html.erb within layouts/application
+  Rendered home/show.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 234ms (Views: 196.8ms)
+
+
